@@ -1,5 +1,7 @@
 [keyboard]
 bindings = [
     { key = "Enter", mods = "Command", action="ToggleSimpleFullscreen" },
-    { key = "v", mods = "Command", action = "ToggleViMode" } 
+    { key = "v", mods = "Command", action = "ToggleViMode" },
+    { key = "k", mods = "Alt", chars = "\u001BF" },
+    { key = "j", mods = "Alt", chars = "\u001BB" }
 ]
