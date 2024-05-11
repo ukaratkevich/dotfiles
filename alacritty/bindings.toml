@@ -1,1 +1,5 @@
-# TBD
+[keyboard]
+bindings = [
+    { key = "Enter", mods = "Command", action="ToggleSimpleFullscreen" },
+    { key = "v", mods = "Command", action = "ToggleViMode" } 
+]
