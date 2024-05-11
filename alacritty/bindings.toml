@@ -2,6 +2,10 @@
 bindings = [
     { key = "Enter", mods = "Command", action="ToggleSimpleFullscreen" },
     { key = "v", mods = "Alt", action = "ToggleViMode" },
-    { key = "k", mods = "Alt", chars = "\u001BF" },
-    { key = "j", mods = "Alt", chars = "\u001BB" }
+    { key = "l", mods = "Alt", chars = "\u001BF" },
+    { key = "h", mods = "Alt", chars = "\u001BB" },
+    { key = "k", mods = "Alt", action = "ScrollLineUp" },
+    { key = "j", mods = "Alt", action = "ScrollLineDown" },
+    { key = "k", mods = "Shift|Alt", action = "ScrollPageUp" },
+    { key = "j", mods = "Shift|Alt", action = "ScrollPageDown" }
 ]
