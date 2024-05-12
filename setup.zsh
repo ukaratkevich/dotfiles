@@ -1,10 +1,10 @@
-#!bin/zsh
+#!/usr/bin/env zsh
 
 # Global variables
 export BASE_DIR=$PWD
 
 echo "Run utilities setup"
-zsh ./common/fonts.sh
+zsh ./common/fonts.zsh
 
 echo "Run Alacritty setup"
-zsh ./alacritty/alacritty.sh
+zsh ./alacritty/alacritty.zsh

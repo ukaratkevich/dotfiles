@@ -1,4 +1,4 @@
-#!bin/zsh
+#!/usr/bin/env zsh
 
 brew install --cask alacritty --no-quarantine
 
